@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.EditBookActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.AddNewsFragment"
+        android:orientation="vertical"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Buku"/>
+
+        <EditText
+            android:id="@+id/edt_buku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Judul Buku"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengarang"
+            android:layout_marginTop="8dp"
+            />
+        <EditText
+            android:id="@+id/edt_pengarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Pengarang"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sinopsis"
+            android:layout_marginTop="8dp"
+            />
+        <EditText
+            android:id="@+id/edt_sinopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Sinopsis"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL Judul"
+            android:layout_marginTop="8dp"
+            />
+        <EditText
+            android:id="@+id/edt_url_gambar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contoh : http://url.com/file.jpg/"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Rilis Buku"
+            android:layout_marginTop="8dp"
+            android:id="@+id/tv_set"
+            />
+        <DatePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_tanggal"
+
+            />
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Submit" />
+    </LinearLayout>
+
+</ScrollView>

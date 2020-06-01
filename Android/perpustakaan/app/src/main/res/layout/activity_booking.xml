@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BookingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.AddNewsFragment"
+        android:orientation="vertical"
+        android:padding="8dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Buku"/>
+
+        <EditText
+            android:id="@+id/edt_idbuku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:enabled="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Buku"/>
+
+        <EditText
+            android:id="@+id/edt_judulbuku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Judul Buku"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Anggota"
+            android:layout_marginTop="8dp"
+            />
+        <EditText
+            android:id="@+id/edt_idanggota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID Anggota"
+            android:enabled="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Book Buku"
+            android:layout_marginTop="8dp"
+            />
+        <DatePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_pinjam"
+
+            />
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Submit" />
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_cek_booking"
+        android:title="Daftar Booking"
+        android:icon="@drawable/ic_bulletcek"/>
+    <item
+        android:id="@+id/navigation_daftar_buku"
+        android:title="Buku"
+        android:icon="@drawable/ic_bullet"/>
+    <item
+        android:id="@+id/navigation_tambah_buku"
+        android:title="Tambah Buku"
+        android:icon="@drawable/ic_bulletplus"
+        />
+    <item
+        android:id="@+id/navigation_user_admin"
+        android:title="User"
+        android:icon="@drawable/ic_person"
+        />
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BookDetailActivity">
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+
+        />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul Buku"
+        android:layout_below="@+id/iv_image"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_margin="8dp"
+        />
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignStart="@+id/tv_title"
+        android:text="dd-mm-yyyy"
+
+        />
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_date"
+        android:layout_alignStart="@+id/tv_date"
+        android:textStyle="italic"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_author"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        >
+        <TextView
+            android:layout_margin="8dp"
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sinopsis"
+            />
+    </ScrollView>
+</RelativeLayout>

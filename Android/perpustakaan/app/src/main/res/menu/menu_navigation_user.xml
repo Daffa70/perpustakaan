@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_booking"
+        android:title="Pesanan Saya"
+        android:icon="@drawable/ic_bulletplus"/>
+    <item
+        android:id="@+id/navigation_cari_buku"
+        android:title="Cari Buku"
+        android:icon="@drawable/ic_search"/>
+    <item
+        android:id="@+id/navigation_user"
+        android:title="User"
+        android:icon="@drawable/ic_person"
+        />
+</menu>
